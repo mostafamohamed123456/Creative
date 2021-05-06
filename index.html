@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="welcome to my Page">
+        <title>Learn HTML5</title>
+        <link href="css/creative.css" rel="stylesheet" >
+        <link href="https://fonts.gstatic.com" rel="preconnect" >
+        <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <section class="first-section">
+            <div class="overlay"></div>
+            <nav>
+                <h1 class="head-logo">Creative Studio</h1>
+                <ul class="first-ul">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#our skills">Our Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#our team">Our Team</a></li>
+                </ul>
+            </nav>
+            <div class="welcome-head">
+                <h2></h2>
+                <p>we are creative studio trying to help you be more creative and increase your iq.</p>
+                <button>Get Started</button>
+            </div>
+            <button class="send-text" title="Send Message"><i class="fa fa-file-text-o"></i></button>
+            <div class="message-container hideMessageContainer">
+                <button class="close-message"><i class="fa fa-close"></i></button>
+                <textarea class="message-area"></textarea>
+                <button id="send-message">Send</button>
+            </div>
+            <div class="setting-Box">
+                <h2>Setting Box</h2>
+                <span class="setting-button"><i class="fa fa-gear"></i></span>
+                <div class="change-main-color">
+                    <h4>Change Main Color</h4>
+                    <div class="changeColor"></div>
+                    <span class="submitColor">Submit</span>
+                    <span class="resetColor">Reset</span>
+                    <input type="color" value="#f87b14">
+                </div>
+            </div>
+        </section>
+        <section class="seconed-section">
+            <div class="header">
+                <h2>Our Skills</h2>
+            </div>
+            <div class="skills-container" id="our skills">
+                <div>
+                    <p>HTML: </p>
+                    <progress class="hideClass first-progress"></progress>
+                </div>
+                <div>
+                    <p>CSS: </p>
+                    <progress class="hideClass sec-progress"></progress>
+                </div>
+                <div>
+                    <p>JavaScript: </p>
+                    <progress class="hideClass third-progress"></progress>
+                </div>
+                <div>
+                    <p>BootStrap: </p>
+                    <progress class="hideClass forth-progress"></progress>
+                </div>
+                <div>
+                    <p>PHP: </p>
+                    <progress class="hideClass last-progress"></progress>
+                </div>
+            </div>
+        </section>
+        <section class='third-section'>
+            <h2>Contact With Us</h2>
+            <div class="contact-container" id="contact">
+                <form action="" method="GET">
+                    <div>
+                        <label>Username:</label>
+                        <input type="text" name="username" placeholder="&#xf007; Enter Username!" autocomplete="off" data-placeholder = '' class="input">
+                    </div>
+                    <div>
+                        <label>Email:</label>
+                        <input type="email" name="email" placeholder="&#xf0e0; Enter Useremail!" autocomplete="off" data-placeholder = '' class="input">
+                    </div> 
+                    <div>
+                        <label>Password:</label>
+                        <input type="password" name="password" placeholder="&#xf023; Enter Password!" autocomplete="off" data-placeholder = '' class="input">
+                    </div>   
+                    <div>
+                        <label>Re-Enter Password:</label>
+                        <input type="password" name="password" placeholder="&#xf023; Re-Enter Password!" autocomplete="off" data-placeholder = '' class="input">
+                    </div>    
+                    <div>   
+                        <label>Birthdate:</label>
+                        <input type="date" name="date" style="font-size:18px;color:rgb(107, 105, 105);">
+                    </div>    
+                    <input type="submit" value="submit">
+                </form>
+            </div>
+        </section>
+        <section class="forth-section">
+            <h2>Our Team</h2>
+            <div class="our-team-container" id="our team">
+                <div>
+                    <img src="img/fp01.jpg">
+                    <span>Derek William</span>
+                    <p>Lorem ipsum, or lipsum as it is sometimes known.</p>
+                </div>
+                <div>
+                    <img src="img/fp02.jpg">
+                    <span>Antonio Rose</span>
+                    <p>Lorem ipsum, or lipsum as it is sometimes known.</p>
+                </div>
+                <div>
+                    <img src="img/fp03.jpg">
+                    <span>Jem Stephan</span>
+                    <p>Lorem ipsum, or lipsum as it is sometimes known.</p>
+                </div>
+                <div>
+                    <img src="img/fp04.jpg">
+                    <span>Lila Jason</span>
+                    <p>Lorem ipsum, or lipsum as it is sometimes known.</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            All Copyrights&copy; Reserved To Mostafa Mohamed <i class="fa fa-facebook-square"></i><i class="fa fa-twitter"></i><i class="fa fa-instagram"></i>
+        </footer>
+        <script src="js/creative.js"></script> 
+    </body>
+</html>
