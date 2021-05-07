@@ -813,7 +813,7 @@ footer .fa-instagram{
 
 /*Start Mobile Screen*/
 
-@media (min-width:320px) and (max-width:500px){ 
+@media (min-width:320px) and (max-width:412px){ 
     .first-section nav .head-logo{
         font-size:16px;
         width: 56%;
@@ -849,7 +849,8 @@ footer .fa-instagram{
         margin: 25px 0 0 112px;
     }
     .seconed-section .header{
-        margin-top:38px
+        padding-top:38px;
+        margin-top: 0;
     }
     .seconed-section .skills-container{
         margin: 6px auto;
@@ -865,7 +866,8 @@ footer .fa-instagram{
         margin-bottom:5px;
     }
     .third-section h2{
-        margin-top: 38px;
+        margin-top: 0;
+        padding-top: 38px;
     }
     .third-section .contact-container{
         margin: 11px auto;
@@ -885,7 +887,95 @@ footer .fa-instagram{
         height: 166vh;
     }
     .forth-section h2{
-        margin-top: 38px;
+        margin-top: 0;
+        padding-top: 38px;
+    }
+    .forth-section .our-team-container > div{
+        width: 100%;
+    }
+    footer{
+        font-size:12px
+    }
+}
+
+
+@media (min-width:412px) and (max-width:500px){ 
+    .first-section nav .head-logo{
+        font-size:16px;
+        width: 56%;
+        padding:21px 5px;
+    }
+    .first-section .navbar-links{
+        height:460%
+    }
+    .first-section .welcome-head{
+        width: 94%;
+    }
+    .first-section .welcome-head h2{
+        font-size:21px;
+    }
+    .first-section .welcome-head p{
+        font-size:14px;
+    }
+    .first-section .message-container{
+        width: 277px;
+    }
+    .first-section nav{
+        z-index: 5;
+    }
+    .first-section nav ul{
+        padding:25px 0;
+        display: none;
+    }
+    .first-section nav ul li{
+        margin-left: 0;
+    }
+    .first-section nav img{
+        display: block;
+        margin: 25px 0 0 144px;
+    }
+    .seconed-section .header{
+        padding-top:38px;
+        margin-top: 0;
+    }
+    .seconed-section .skills-container{
+        margin: 6px auto;
+        padding:10px 57px
+    }
+    .seconed-section .skills-container div{
+        display: block;
+        padding:0;
+    }
+    .seconed-section .skills-container div p{
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+        margin-bottom:5px;
+    }
+    .third-section h2{
+        margin-top: 0;
+        padding-top: 38px;
+    }
+    .third-section .contact-container{
+        margin: 11px auto;
+        padding:39px 42px
+    }
+    .third-section .contact-container form > div{
+        display:block
+    }
+    .third-section .contact-container div input{
+        margin-bottom:10px;
+        width: 300px;
+    }
+    .third-section .contact-container input[type='submit']{
+        margin: 9px auto;
+    }
+    .forth-section{
+        height: 166vh;
+    }
+    .forth-section h2{
+        margin-top: 0;
+        padding-top: 38px;
     }
     .forth-section .our-team-container > div{
         width: 100%;
