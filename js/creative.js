@@ -232,12 +232,23 @@ ourTeamDivs.forEach(teamDiv =>{
 let myResponsiveBtn = document.querySelector('.first-section nav img');
 myResponsiveBtn.onclick = () =>{
     document.querySelector('.first-section .navbar-links').classList.toggle('hide-responsive');
+    if(!document.querySelector('.first-section .navbar-links').classList.contains('hide-responsive')){
+        document.body.style.overflowY = "hidden";
+    }else{
+        document.body.style.overflowY = "scroll";
+    }
+    
 }
 let myResponsiveAnchors = document.querySelectorAll('.first-section .navbar-links .sec-ul li a');
 
 myResponsiveAnchors.forEach(anchor =>{
     anchor.onclick = () =>{
-        document.querySelector('.first-section .navbar-links').classList.toggle('hide-responsive')
+        document.querySelector('.first-section .navbar-links').classList.toggle('hide-responsive');
+        if(!document.querySelector('.first-section .navbar-links').classList.contains('hide-responsive')){
+            document.body.style.overflowY = "hidden";
+        }else{
+            document.body.style.overflowY = "scroll";
+        }
     }
 })
 
