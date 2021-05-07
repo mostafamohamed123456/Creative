@@ -819,6 +819,9 @@ footer .fa-instagram{
         width: 56%;
         padding:21px 5px;
     }
+    .first-section .navbar-links{
+        height:460%
+    }
     .first-section .welcome-head{
         width: 100%;
     }
@@ -846,7 +849,7 @@ footer .fa-instagram{
         margin: 25px 0 0 112px;
     }
     .seconed-section .header{
-        margin-top:0
+        margin-top:38px
     }
     .seconed-section .skills-container{
         margin: 6px auto;
@@ -862,11 +865,11 @@ footer .fa-instagram{
         margin-bottom:5px;
     }
     .third-section h2{
-        margin-top: 0;
+        margin-top: 38px;
     }
     .third-section .contact-container{
         margin: 11px auto;
-        padding:0
+        padding:24px
     }
     .third-section .contact-container form > div{
         display:block
@@ -879,10 +882,10 @@ footer .fa-instagram{
         margin: 9px auto;
     }
     .forth-section{
-        height: 207vh;
+        height: 166vh;
     }
     .forth-section h2{
-        margin-top: 0;
+        margin-top: 38px;
     }
     .forth-section .our-team-container > div{
         width: 100%;
