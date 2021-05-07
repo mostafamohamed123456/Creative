@@ -119,7 +119,7 @@ window.onscroll = () =>{
             //Remove hideClass From All Progress Elements.
             myProgress.forEach(progress=>{
                 progress.classList.remove('hideClass');
-                progress.style.width = '345px';
+                progress.style.width = '271px';
             });
             myProgress[0].style.animationName = 'first-progress';
             myProgress[1].style.animationName = 'sec-progress';
@@ -229,5 +229,16 @@ ourTeamDivs.forEach(teamDiv =>{
 /*End Popup Section*/
 
 /*Start OF NavBAr Responsive Button*/
+let myResponsiveBtn = document.querySelector('.first-section nav img');
+myResponsiveBtn.onclick = () =>{
+    document.querySelector('.first-section .navbar-links').classList.toggle('hide-responsive');
+}
+let myResponsiveAnchors = document.querySelectorAll('.first-section .navbar-links .sec-ul li a');
+
+myResponsiveAnchors.forEach(anchor =>{
+    anchor.onclick = () =>{
+        document.querySelector('.first-section .navbar-links').classList.toggle('hide-responsive')
+    }
+})
 
 /*End OF NavBAr Responsive Button*/
